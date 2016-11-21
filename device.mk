@@ -20,5 +20,10 @@ $(call inherit-product-if-exists, vendor/samsung/d2refreshspr/d2refreshspr-vendo
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2refreshspr/overlay
 
+# Custom carrier config app for d2refreshspr
+PRODUCT_PACKAGES += \
+    CdmaCarrierConfig \
+    init.carrier.rc
+
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)

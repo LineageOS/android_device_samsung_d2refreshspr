@@ -26,5 +26,8 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2refreshspr/BoardConfigVendor.mk
 
+# Sepolicy
+BOARD_SEPOLICY_DIRS += device/samsung/d2refreshspr/sepolicy
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2refreshspr,d2bst,d2lte
