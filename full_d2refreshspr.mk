@@ -11,13 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
- 
-# Inherit from d2spr device
-$(call inherit-product, device/samsung/d2spr/device.mk)
+
+# Inherit from d2refreshspr device
+$(call inherit-product, device/samsung/d2refreshspr/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_d2spr
-PRODUCT_DEVICE := d2spr
+PRODUCT_NAME := full_d2refreshspr
+PRODUCT_DEVICE := d2refreshspr
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SPH-L710
+PRODUCT_MODEL := SPH-L710T
